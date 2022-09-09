@@ -2,7 +2,7 @@
     "name": "ip-track",
     "version": "1.0.0",
     "description": "A simple npm package to learn about using npm",
-    "main": "app.js",
+    "main": "index.html",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
