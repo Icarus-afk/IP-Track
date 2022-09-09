@@ -1,0 +1,102 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    background-color: #A8A7A7;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin: 30px;
+    color: white;
+}
+
+#ip-input {
+    display: grid;
+    grid-template-columns: 85% 15%;
+    margin: 20px;
+}
+
+#ip_address {
+    grid-column: 1/2;
+    border-radius: 12px 0 0 12px;
+    border: none;
+    padding: 12px;
+}
+
+#key {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+}
+
+#api {
+    border: none;
+    grid-column: 1/2;
+    padding: 12px;
+    border-radius: 12px;
+    display: none;
+}
+
+#first {
+    grid-column: 2/3;
+    background-color: #E8175D;
+    border: none;
+    border-radius: 0 12px 13px 0;
+}
+
+first:hover{
+    color: #eb0552
+}
+
+#reset {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px;
+}
+
+#second {
+    width: 100%;
+    background-color: #E8175D;
+    border: none;
+    grid-column: 1/2;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+#information {
+    background-color: white;
+    padding: 12px;
+    margin: 20px;
+    border-radius: 12px;
+    z-index: 4;
+    border: none;
+}
+
+.data {
+    text-align: center;
+    margin-top: -5px;
+    color: #2a363b;
+}
+
+.tags {
+    font-size: 10px;
+    color:hsl(0, 0%, 59%);
+    text-align: center;
+}
+
+#demo {
+    height: 380px;
+    margin: 20px;
+    border-radius: 12px;
+    border: none;
+}
+
+footer {
+    background-color: #A8A7A7;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+}
